@@ -7,9 +7,8 @@
         xmlns:local="clr-namespace:Controls"
         mc:Ignorable="d"
         Title="MainWindow" Height="805" Width="430"
-        x:Name="Wnd_Main" WindowStartupLocation="CenterScreen">
+        x:Name="Wnd_Main" WindowStartupLocation="CenterScreen" Topmost="True">
     <StackPanel>
-
         <!--Labels besitzen, wie die meisten Controls und alle Container eine Content-Eigenschaft, welche
         mit weiteren Containern/Controls befüllt werden können (Auch hier darf nur ein Root-Element vohanden sein).-->
         <Label x:Name="Lbl_Output"
@@ -134,6 +133,8 @@
 
         <Frame x:Name="Frame1" Source="Page1.xaml" Height="50" NavigationUIVisibility="Hidden"/>
         <Button Content="Ändere Frameinhalt" Click="Button_Click"/>
+
+        <Calendar SelectionMode="SingleRange" x:Name="Cal_Test"/>
 
     </StackPanel>
 </Window>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Person
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03_Container", "Container\M03_Container.csproj", "{DBFA4ED0-E41D-47AD-9DDB-54B0255AAC54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{37DD4DD5-6F31-4204-A8EB-9EEA016800AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DBFA4ED0-E41D-47AD-9DDB-54B0255AAC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBFA4ED0-E41D-47AD-9DDB-54B0255AAC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBFA4ED0-E41D-47AD-9DDB-54B0255AAC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DD4DD5-6F31-4204-A8EB-9EEA016800AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DD4DD5-6F31-4204-A8EB-9EEA016800AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DD4DD5-6F31-4204-A8EB-9EEA016800AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DD4DD5-6F31-4204-A8EB-9EEA016800AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

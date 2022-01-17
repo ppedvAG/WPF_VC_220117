@@ -44,6 +44,8 @@ namespace Controls
             if (Cbx_Haken.IsChecked == true)
                 //Anzeige einer MessageBox mit Inhalt der TextBox und Auswahl der ComboBox
                 MessageBox.Show(Tbx_Input.Text + "\n" + Cbb_Auswahl.Text);
+
+            MessageBox.Show(Cal_Test.SelectedDates[0].ToString() + " | " + Cal_Test.SelectedDates.Last().ToString());
         }
 
         //Zweiter Eventhandeler des Buttons (siehe Konstruktor)
