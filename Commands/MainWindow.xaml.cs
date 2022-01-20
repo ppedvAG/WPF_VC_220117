@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HalloWPF
+namespace Commands
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,11 +23,23 @@ namespace HalloWPF
         public MainWindow()
         {
             InitializeComponent();
+
+            //Initialisierung der Commands
+            CloseCmd = new CloseCommand();
+            OeffnenCmd = new CustomCommand
+                (
+                    //Übergabe der Execute()-Logik
+                    p => (new MainWindow()).Show(),
+                    //Übergabe der CanExecute()-Logik
+                    p => (p as string).Length >= 1
+                );
+
+            //Setzen des DataContext
+            this.DataContext = this;
         }
 
-        private void Btn_BeispielButton_Click(object sender, RoutedEventArgs e)
-        {
-            Btn_BeispielButton.Content = "Ich wurde angeklickt";
-        }
+        //Commandproperties 
+        public CloseCommand CloseCmd { get; set; }
+        public CustomCommand OeffnenCmd { get; set; }
     }
 }

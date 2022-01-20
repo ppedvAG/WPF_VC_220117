@@ -23,13 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M07_Resources", "Resources\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M08_Templates", "Templates\M08_Templates.csproj", "{70F773FD-1681-4A25-A219-77196CB37BA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09_Validation", "Validation\M09_Validation.csproj", "{727DB528-F05B-4D0F-8EB7-F91E50654E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M09_Validation", "Validation\M09_Validation.csproj", "{727DB528-F05B-4D0F-8EB7-F91E50654E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10_Trigger", "Trigger\M10_Trigger.csproj", "{118E4D7F-47F5-4E5F-A98F-0D6D9E9C4330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M10_Trigger", "Trigger\M10_Trigger.csproj", "{118E4D7F-47F5-4E5F-A98F-0D6D9E9C4330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M11_UserControls", "UserControls\M11_UserControls.csproj", "{63579277-0F13-4667-9C6B-BFCEEDABB0F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M11_UserControls", "UserControls\M11_UserControls.csproj", "{63579277-0F13-4667-9C6B-BFCEEDABB0F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M12_RelativeSources", "RelativeSources\M12_RelativeSources.csproj", "{0D107936-0058-46AB-8103-B1C87D7DCFA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M12_RelativeSources", "RelativeSources\M12_RelativeSources.csproj", "{0D107936-0058-46AB-8103-B1C87D7DCFA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M13_Commands", "Commands\M13_Commands.csproj", "{84FD2C7B-BC94-4D1D-8A9E-CD908223B3EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M14_MVVM", "MVVM\M14_MVVM.csproj", "{68C985CD-EE6D-4A7A-A184-BF597DC603C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M15_Localisation", "Localisation\M15_Localisation.csproj", "{D1126E40-F700-434D-8456-CA13A1BADAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M16_Animation", "Animation\M16_Animation.csproj", "{8EFD0000-D2DC-49F7-BB6A-E3D25013A392}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +101,22 @@ Global
 		{0D107936-0058-46AB-8103-B1C87D7DCFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D107936-0058-46AB-8103-B1C87D7DCFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D107936-0058-46AB-8103-B1C87D7DCFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84FD2C7B-BC94-4D1D-8A9E-CD908223B3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FD2C7B-BC94-4D1D-8A9E-CD908223B3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FD2C7B-BC94-4D1D-8A9E-CD908223B3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FD2C7B-BC94-4D1D-8A9E-CD908223B3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C985CD-EE6D-4A7A-A184-BF597DC603C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C985CD-EE6D-4A7A-A184-BF597DC603C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C985CD-EE6D-4A7A-A184-BF597DC603C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C985CD-EE6D-4A7A-A184-BF597DC603C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1126E40-F700-434D-8456-CA13A1BADAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1126E40-F700-434D-8456-CA13A1BADAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1126E40-F700-434D-8456-CA13A1BADAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1126E40-F700-434D-8456-CA13A1BADAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFD0000-D2DC-49F7-BB6A-E3D25013A392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFD0000-D2DC-49F7-BB6A-E3D25013A392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFD0000-D2DC-49F7-BB6A-E3D25013A392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFD0000-D2DC-49F7-BB6A-E3D25013A392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

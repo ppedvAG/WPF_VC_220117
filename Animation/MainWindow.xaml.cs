@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HalloWPF
+namespace Animation
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,11 +23,6 @@ namespace HalloWPF
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Btn_BeispielButton_Click(object sender, RoutedEventArgs e)
-        {
-            Btn_BeispielButton.Content = "Ich wurde angeklickt";
         }
     }
 }
